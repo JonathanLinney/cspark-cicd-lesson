@@ -1,4 +1,4 @@
-from appjlinney import appjlinney
+from my_package.appjlinney.app import app
 
 def test_add():
-    assert appjlinney.add(1,1) == 2
+    assert app.add(1,1) == 2
