@@ -28,7 +28,7 @@ jobs:
         working-directory: my_package
         run: poetry build   
   PublishPackage:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     # copy the setup steps except Run Tests from previous job
       - name: Publish
